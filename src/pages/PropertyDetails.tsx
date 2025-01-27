@@ -143,7 +143,7 @@ export default function PropertyDetails() {
 
           <div className="mb-6">
             <h2 className="text-lg font-semibold mb-2">Location</h2>
-            <p className="text-gray- <boltAction type="file" filePath="src/pages/PropertyDetails.tsx">600 flex items-center">
+            <p className="text-gray-600 flex items-center">
               <MapPin className="h-5 w-5 text-gray-400 mr-2" />
               {property.address}, {property.city}, {property.state}, {property.country}
             </p>
